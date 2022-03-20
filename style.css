@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 2.8em;
+}
+p{
+    font-size: 1em;
+}
+.logo{
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+}
+header{
+    background-color: rgb(241, 249, 255);
+}
+header .vac{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+header a{
+    padding: 15px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+}
+header a:hover{
+    color: white;
+    background-color: blue;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.fight h1{
+    color: rgb(53, 74, 110);
+}
+.fight p{
+    color: rgb(95, 95, 95);
+}
+.schedule{
+    margin-left: 5px;
+    background-image: url("img/MicrosoftTeams-image.png");
+    background-repeat: no-repeat;
+    background-size: 400px 500px;
+    background-position: right;
+    background-position-y: top;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+}
+.inicio p{
+    font-size: small;
+    font-weight: bold;
+    color: rgb(53, 74, 110);
+}
+.inicio img{
+    padding-right: 10px;
+    height: 2em;
+}
+.reloj{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.reloj img{
+    height: 1.5em;
+    padding-right: 10px;;
+}
+.submit{
+    display: flex;
+    max-width: 600px;
+    background-color: rgb(241, 249, 255);
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.submit img{
+    height: 25px;
+    padding-right: 8px;
+}
+.submit p{
+    color: rgb(95, 95, 95);
+    margin-top: 5px;
+    padding-right: 10px;
+}
+.submit span{
+    color: rgb(53, 74, 110);
+    font-weight: bold;
+    font-size: 1em;
+}
+.submit button{
+    color: white;
+    background-color: blue;
+    padding: 0px 45px;
+    border-radius: 5px;
+    margin-left: 35px;
+    border: 0ch;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.submit button:hover{
+    background-color: rgb(45, 45, 248);
+}
+.vaccines img{
+    max-width: 1350px;
+}
